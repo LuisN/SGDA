@@ -1,0 +1,28 @@
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\SGDA.exe
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\SGDA.pdb
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\SGDA.xml
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\SDGA.frmLogin.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\SDGA.frmPrincipal.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\SDGA.Resources.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\SGDA.exe
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\SGDA.xml
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\SGDA.pdb
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\Newtonsoft.Json.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\SGDA.exe
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\SGDA.xml
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\SGDA.pdb
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\SDGA.frmLogin.resources
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\SDGA.frmPrincipal.resources
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\SDGA.Resources.resources
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\SGDA.exe
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\SGDA.pdb
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\SGDA.xml
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\Newtonsoft.Json.xml
