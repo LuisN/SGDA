@@ -3,7 +3,8 @@ Imports System.Security.Cryptography
 Imports Newtonsoft
 Imports Newtonsoft.Json
 Imports Newtonsoft.Json.Linq
-Public Class SGDA
+'Clase Auxiliar
+Public Class SGDA 
     Public Shared Function getHash(ByVal text As String) As String
         Dim password As Byte() = Encoding.UTF8.GetBytes(text)
         Dim md5 As MD5 = md5.Create()
