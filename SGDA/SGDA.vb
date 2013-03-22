@@ -5,6 +5,7 @@ Imports Newtonsoft.Json
 Imports Newtonsoft.Json.Linq
 'Clase Auxiliar
 Public Class SGDA 
+	'Obtiene el Hash de la cadena de entrada text
     Public Shared Function getHash(ByVal text As String) As String
         Dim password As Byte() = Encoding.UTF8.GetBytes(text)
         Dim md5 As MD5 = md5.Create()
