@@ -38,44 +38,47 @@ Public Class frmLogin
             'Establecemos el tipo de la peticion para poder enviar los datos via POST
             request.ContentType = "application/x-www-form-urlencoded"
             'Ejecutamos la peticion y retornamos los datos en un Stream
-            'Try
-            Dim dataStream As Stream = request.GetRequestStream()
-            'Reescribimos la matriz
-            dataStream.Write(byteArray, 0, byteArray.Length)
+            Try
+                Dim dataStream As Stream = request.GetRequestStream()
+                'Reescribimos la matriz
+                dataStream.Write(byteArray, 0, byteArray.Length)
 
-            'Intanciamos la clases de Respuesta Web y pasamos de parametro la respuesta de la peticion
-            Dim response As HttpWebResponse = CType(request.GetResponse(), HttpWebResponse)
-            'Devolvemos la respuesta del servidor como un Flujo
-            dataStream = response.GetResponseStream()
-            'Iniciamos un lector de Flujo
-            Dim reader As New StreamReader(dataStream)
-            'Leemos hasta el final el Flujo y lo depositamos en una cadena de texto
-            Dim responseFromServer As String = reader.ReadToEnd()
-            'asigno las variables 
-            Dim userjson As String = getJson(responseFromServer, "username")
-            Dim passjson As String = getJson(responseFromServer, "password")
-            Dim access_token As String = getJson(responseFromServer, "accessToken")
-            Dim code As Integer = getJson(responseFromServer, "code")
-            'Debug
-            Console.WriteLine("User: " & userjson)
-            Console.WriteLine("Pass: " & passjson)
-            Console.WriteLine("Token: " & access_token)
-            Console.WriteLine("Code: " & code)
-            'Asigno los datos retornados por el servidor a la variable de sesion
-            Session.Add(access_token)
-            Session.Add(userjson)
-            Session.Add(passjson)
-            Session.Add(code)
-            If code = 200 Then
-                frmPrincipal.Show()
-                'Catch es As SystemException
-                ''Console.WriteLine(es)
-                'lblStatus.Text = es.Message
-                'EnDi(True)
-                'End Try
-            ElseIf code = 404 Then
-                lblStatus.Text = "Usuario y/o Contraseña incorrectos"
-            End If
+                'Intanciamos la clases de Respuesta Web y pasamos de parametro la respuesta de la peticion
+                Dim response As HttpWebResponse = CType(request.GetResponse(), HttpWebResponse)
+                'Devolvemos la respuesta del servidor como un Flujo
+                dataStream = response.GetResponseStream()
+                'Iniciamos un lector de Flujo
+                Dim reader As New StreamReader(dataStream)
+                'Leemos hasta el final el Flujo y lo depositamos en una cadena de texto
+                Dim responseFromServer As String = reader.ReadToEnd()
+                'asigno las variables 
+                Dim userjson As String = getJson(responseFromServer, "username")
+                Dim passjson As String = getJson(responseFromServer, "password")
+                Dim access_token As String = getJson(responseFromServer, "accessToken")
+                Dim code As Integer = getJson(responseFromServer, "code")
+                'Debug
+                Console.WriteLine("User: " & userjson)
+                Console.WriteLine("Pass: " & passjson)
+                Console.WriteLine("Token: " & access_token)
+                Console.WriteLine("Code: " & code)
+                'Asigno los datos retornados por el servidor a la variable de sesion
+                Session.Add(access_token)
+                Session.Add(userjson)
+                Session.Add(passjson)
+                Session.Add(code)
+                If code = 200 Then
+                    frmPrincipal.Show()
+                    'Catch es As SystemException
+                    ''Console.WriteLine(es)
+                    'lblStatus.Text = es.Message
+                    'EnDi(True)
+                    'End Try
+                ElseIf code = 404 Then
+                    lblStatus.Text = "Usuario y/o Contraseña incorrectos"
+                End If
+            Catch we As WebException
+                lblStatus.Text = we.Message
+            End Try
         End If
     End Sub
     Private Sub EnDi(ByVal bool As Boolean)

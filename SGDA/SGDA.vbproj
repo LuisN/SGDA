@@ -52,19 +52,19 @@
     <ApplicationIcon>sharingan.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>false</SignManifests>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>D56FB4237105A4E656B5EE644FAE2DB0FD6ECF13</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>274E54A4BB29B53501D0C96ED7860744CFCCEA9B</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>SGDA_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>SGDA_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>SGDA_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>SGDA_1_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <DelaySign>false</DelaySign>
@@ -167,6 +167,7 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="SGDA_1_TemporaryKey.pfx" />
     <None Include="SGDA_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

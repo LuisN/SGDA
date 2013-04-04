@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Revisar los valores de los atributos del ensamblado
 
-<Assembly: AssemblyTitle("WindowsApplication1")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyTitle("SGDA")> 
+<Assembly: AssemblyDescription("Sistema de gestion digital del alumnado")> 
+<Assembly: AssemblyCompany("ELab")> 
 <Assembly: AssemblyProduct("WindowsApplication1")> 
 <Assembly: AssemblyCopyright("Copyright ©  2013")> 
-<Assembly: AssemblyTrademark("")> 
+<Assembly: AssemblyTrademark("Elab")> 
 
 <Assembly: ComVisible(False)>
 
