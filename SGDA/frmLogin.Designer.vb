@@ -79,8 +79,9 @@ Partial Class frmLogin
         Me.lblStatus.AutoSize = True
         Me.lblStatus.Location = New System.Drawing.Point(21, 9)
         Me.lblStatus.Name = "lblStatus"
-        Me.lblStatus.Size = New System.Drawing.Size(0, 13)
+        Me.lblStatus.Size = New System.Drawing.Size(55, 13)
         Me.lblStatus.TabIndex = 5
+        Me.lblStatus.Text = "StatusBox"
         '
         'btnTest
         '

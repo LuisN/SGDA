@@ -8,8 +8,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{81E5A673-9620-4EED-8E1D-967F55BB707D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>SDGA.My.MyApplication</StartupObject>
-    <RootNamespace>SDGA</RootNamespace>
+    <StartupObject>ELAB.My.MyApplication</StartupObject>
+    <RootNamespace>ELAB</RootNamespace>
     <AssemblyName>SGDA</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
@@ -105,6 +105,7 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WebRequest.vb" />
     <Compile Include="Crypto.vb" />
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>

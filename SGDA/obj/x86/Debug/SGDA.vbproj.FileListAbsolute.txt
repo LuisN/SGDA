@@ -26,3 +26,17 @@ C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\SGDA.pdb
 C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\SGDA.xml
 C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\Newtonsoft.Json.dll
 C:\Users\LUIS\Documents\Visual Studio 2010\Projects\SGDA\SGDA\bin\Debug\Newtonsoft.Json.xml
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\bin\Debug\SGDA.exe
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\bin\Debug\SGDA.pdb
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\bin\Debug\SGDA.xml
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\bin\Debug\Newtonsoft.Json.dll
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\bin\Debug\Newtonsoft.Json.xml
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\obj\x86\Debug\ELAB.frmLogin.resources
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\obj\x86\Debug\ELAB.frmPrincipal.resources
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\obj\x86\Debug\ELAB.Resources.resources
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\obj\x86\Debug\SGDA.exe
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\obj\x86\Debug\SGDA.xml
+C:\Documents and Settings\Administrador.DESKTOP\Mis documentos\GitHub\SGDA\SGDA\obj\x86\Debug\SGDA.pdb
